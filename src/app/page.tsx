@@ -1,5 +1,6 @@
 import About from "@/components/About";
 import Hero from "@/components/Hero";
+import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { navItems } from "@/constants";
 
@@ -10,7 +11,7 @@ export default function Home() {
         <FloatingNav navItems={navItems} />
         <Hero />
         <About />
-
+        <RecentProjects />
         {/* TEMP: Simple Long Section to see nav */}
         <div className="w-full h-[500vh]"></div>
       </div>
