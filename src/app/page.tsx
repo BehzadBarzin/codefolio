@@ -12,8 +12,6 @@ export default function Home() {
         <Hero />
         <About />
         <RecentProjects />
-        {/* TEMP: Simple Long Section to see nav */}
-        <div className="w-full h-[500vh]"></div>
       </div>
     </main>
   );
